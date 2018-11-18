@@ -1,0 +1,32 @@
+@import 'normalize-scss';
+@include normalize();
+
+.App {
+  header {
+    font-size: 64px;
+    text-align: center;
+  }
+
+  svg {
+    height: 600px;
+    width: 600px;
+    background-color: #aaa;
+    margin: auto;
+    display: block;
+  }
+
+  .dead {
+    fill: #844;
+  }
+
+  .alive {
+    fill: #3f3;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+  button {
+    margin: 0.5em;
+  }
+}
