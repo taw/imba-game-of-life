@@ -1,6 +1,6 @@
 {
-  "name": "imba-boilerplate",
-  "description": "Boilerplate code for imba and sass",
+  "name": "imba-game-of-life",
+  "description": "Game of Life in imba",
   "keywords": [
     "imba",
     "sass"
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/taw/imba-boilerplate.git"
+    "url": "git://github.com/taw/imba-game-of-life.git"
   },
   "license": "MIT",
   "dependencies": {

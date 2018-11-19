@@ -1,4 +1,4 @@
-# imba-boilerplate
+# imba-game-of-life
 
 Game of Life in imba.
 
