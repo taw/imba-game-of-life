@@ -1,4 +1,4 @@
-def countNeighbours(cells, x, y)
+let def countNeighbours(cells, x, y)
   let count = 0
   for i, cell of cells
     if !cell:state
@@ -9,7 +9,7 @@ def countNeighbours(cells, x, y)
       count += 1
   return count
 
-def runStep(cells)
+let def runStep(cells)
   let nextCells = []
   for i, cell of cells
     let n = countNeighbours(cells, cell:x, cell:y)
@@ -34,8 +34,8 @@ tag App
     let sizex = 30
     let sizey = 30
     @cells = []
-    for x of Array.from({length: sizex})
-      for y of Array.from({length: sizey})
+    for x in [0..sizex]
+      for y in [0..sizey]
         @cells.push({ x: x, y: y, state: Math.random() < 0.2 })
 
   def step
