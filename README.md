@@ -1,6 +1,6 @@
 # imba-game-of-life
 
-Game of Life in imba.
+Game of Life in Imba. [You can see in in action here](https://taw.github.io/imba-game-of-life).
 
 ## Install dependencies
 
